@@ -8,12 +8,23 @@ const playerMakup = {
     playerName: ""
 }
 
-yoda.playerName = "Yoda";
-luke.playerName = "Luke";
-darkVader.playerName = "Dark Vader";
-let luke = Object.create(playerMakup).init(60, 4, 10);
-let darkVader = Object.create(playerMakup).init(300, 4, 10);
-let yoda = Object.create(playerMakup).init(230, 4, 10);
+const rpg = {
+    luke: Object.create(playerMakup).init(60, 4, 10),
+    darkVader: Object.create(playerMakup).init(300, 4, 10),
+    yoda: Object.create(playerMakup).init(230, 50, 10),
+    attack: function(playerAttack, enemyAttack){
+        document.getElementById("attack").addEventListener("click",function(){
+            alert("I have attacked you!!!");
+        });
+    }
+}
+
+rpg.attack();
+
+
+
+
+
 
 
 
