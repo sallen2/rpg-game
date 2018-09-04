@@ -14,28 +14,28 @@ let eName = '';
 let myEHp = '';
 let dbzArr = [
     {
-        image: "assets/images/cellLitCell.gif",
+        image: "/assets/images/cellLitCell.gif",
         name: "Cell",
         healthPoints: 500,
         attackPower: 30,
         counterAttack: 20
     },
     {
-        image: "assets/images/frieza.gif",
+        image: "/assets/images/frieza.gif",
         name: "Frieza",
         healthPoints: 1250,
         attackPower: 20,
         counterAttack: 15
     },
     {
-        image: "assets/images/goku.gif",
+        image: "/assets/images/goku.gif",
         name: "Goku",
         healthPoints: 10080,
         attackPower: 25,
         counterAttack: 20
     },
     {
-        image: "assets/images/vegeta.gif",
+        image: "/assets/images/vegeta.gif",
         name: "Vegeta",
         healthPoints: 9000,
         attackPower: 28,
