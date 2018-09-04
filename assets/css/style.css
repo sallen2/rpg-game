@@ -15,15 +15,6 @@ body{
     height: 0;
 }
 
-.container_div {
-    background-color: #ffffff;
-    border: 4px solid blue;
-    position: relative;
-    float: left;
-    width: 150px;
-    height: 150px;
-}
-
 #myCharacter{
     margin-top: 5px;
     width: 100%;
@@ -35,32 +26,68 @@ body{
     height: 200px;
 }
 
+.moveText{
+    position: relative;
+}
 
+.moveText1{
+    position: relative;
+}
 
-.container h3{
+.moveText2{
+    position: relative;
+    display: inline;
+}
+
+.name{
     position: absolute;
-    left: 30px;
-    top: -20px;
+    z-index: 1;
+    left: 64px;
+    top: -13px;
+}
+
+.nameEnemy{
+    position: absolute;
+    z-index: 1;
+    left: 64px;
+    top: -170px;
+}
+
+.hpStyle{
+    position: absolute; 
+    z-index: 1; 
+    bottom: -10px;
+    left: 64px;
+}
+
+.enemyHp{
+    position: absolute; 
+    z-index: 1; 
+    bottom: -10px;
+    left: 64px;
 }
 
 .attackPower{
-    
+    position: absolute;
+    left: 10px;
 }
 
 .container_img{
+    position: relative;
     background-color: #ffffff;
-    padding: 10px;
+    padding: 20px;
     border: 4px solid blue;
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
 }
 
 .container_enemy{
+    position: relative;
     background-color: #aa0000;
-    padding: 10px;
-    border: 4px solid blue;
-    width: 140px;
-    height: 140px;
+    padding: 20px;
+    border: 4px solid black;
+    width: 120px;
+    height: 120px;
 }
 
 #enemy{
@@ -70,3 +97,4 @@ body{
 .remove{
     display: none;
 }
+
