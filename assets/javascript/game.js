@@ -104,7 +104,7 @@ function setUp() {
 
 $(document).ready(function () {
     setUp();
-    $('.restart').show();
+    $('.restart').hide();
     $('.container_img').on('click', function () {
         let myPlayerDiv = $('<div>');
         let test = $('<div>');
@@ -179,7 +179,8 @@ $(document).ready(function () {
 
     $('.attack').on('click', function () {
         if ($('.eUpdate').length === 0) {
-            console.log('nothing to attack');
+            $('#actionResponse').show();
+            $('#actionResponse').text('Nothing to Attack.');
             console.log(dbzArr.length);
         }
         else {
