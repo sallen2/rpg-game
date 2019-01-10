@@ -7,10 +7,10 @@ Dragon Ball rpg can be viewed [here]()
 
 ## Built With
 
-* [HTML 5](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [CSS 3](https://maven.apache.org/) - Dependency Management
-* [Javascipt](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-* [jQuery](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [HTML 5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+* [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
+* [Javascipt](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [jQuery](https://jquery.com/) - jQuery is a fast, small, and feature-rich JavaScript library.
 
 ## Authors
 
