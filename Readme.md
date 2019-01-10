@@ -3,7 +3,7 @@
 A simple web based rpg game themed around Dragon Ball Z!
 
 ## Deployment
-Dragon Ball rpg can be viewed [here]()
+Dragon Ball rpg can be viewed [here](https://sallen2.github.io/rpg-game/)
 
 ## Built With
 
